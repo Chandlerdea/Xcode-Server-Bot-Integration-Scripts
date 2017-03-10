@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#This would be used for a bot that only runs unit tests
+
 TOTAL_TEST_COUNT=${XCS_TESTS_COUNT}
 TOTAL_FAILURE_COUNT=${XCS_TESTS_FAILURE_COUNT}
 TOTAL_PASS_COUNT=$((TOTAL_TEST_COUNT - TOTAL_FAILURE_COUNT))
